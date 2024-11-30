@@ -1,0 +1,257 @@
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+header { 
+ background-color: #F6AFCD;
+ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand, .nav-link { 
+ color: #ffffff; 
+ font-size: 20px;
+ font-weight: bold;
+ font-family: "Balsamiq Sans";
+ text-transform: uppercase;
+} 
+
+.social-icons a { 
+ margin-left: 15px; 
+ font-size: 2rem;
+ color: #ffffff; 
+ font-size: 20px;
+
+} 
+
+.nav-link:hover {
+    color: #E32B23;
+}
+
+.social-icons a:hover{
+    color: #E32B23;
+}
+
+/*Seccion 1*/
+#seccion1 {
+    position: relative;
+    height: auto;
+}
+
+#seccion1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#carouselExample {
+    height: 80vh;
+}
+
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+#seccion1 .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+}
+
+#seccion1 .text-container h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Balsamiq Sans";
+    color: #F6AFCD;
+}
+
+#seccion1 .text-container p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Balsamiq Sans";
+}
+
+#seccion1 .btn-personalizado {
+    background-color: #FF0066;
+    border-color: #FF0066;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#seccion1 .btn-personalizado:hover {
+    background-color: #E32B23;
+    border-color: #E32B23;
+}
+
+/*Secci¢n2*/
+.seccion-nosotros {
+    background: linear-gradient(to bottom, rgba(242, 184, 206, 0.533), rgba(216, 42, 123, 0.514));
+    color: #fff;
+    padding: 60px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.seccion-nosotros p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Balsamiq Sans";
+}
+
+.titulo-nosotros {
+    font-weight: bold;
+    color: #fff;
+    font-family: "Concert One";
+}
+.video1 {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 5px solid #FF0066;
+}
+
+.boton-conocenos {
+    background-color: #FF0066;
+    border-color: #FF0066;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin:  0 35%;
+}
+
+.boton-conocenos:hover {
+    background-color: #E32B23;
+    border-color: #E32B23;
+}
+
+.col-md-6.d-flex {
+    text-align: center;
+    height: 100%;
+}
+
+/*seccion 3*/
+.container h2{
+    font-weight: bold;
+    color: #FF0066;
+    font-family: "Concert One";
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.border-pink {
+    border: 5px solid #FF66B2;
+    border-radius: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #FF0066;
+    font-family: "Concert One";
+    font-size: 1.5em;
+    padding: 10px 0;
+
+}
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.container .btn-danger{
+    font-weight: bold;
+    background-color: #FF0066;
+    font-family: "Concert One";
+    font-size: 1.5em;
+}
+
+.container .btn-danger:hover {
+    background-color: #E32B23;
+    border-color: #E32B23;
+}
+
+/*seccion 4*/
+.seccion-ubicacion {
+    background: linear-gradient(to bottom, rgba(242, 184, 206, 0.533), rgba(216, 42, 123, 0.514));
+    color: #fff;
+}
+
+.titulo-ubicacion {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.mapa-container {
+    border: 5px solid #FF0066;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*footer*/
+.footer {
+    background-color: #89030C;
+    color: #f0f0f0;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.footer-logo {
+    width: 100px;
+    max-width: 100%;
+}
+
+.footer p{
+    font-size: 1em;
+    color: #f0f0f0;
+    font-family: "Balsamiq Sans";
+}
+
+
+.footer h6{
+    font-size: 1em;
+    color: #f0f0f0;
+    padding: 0 30px;
+    font-family: "Balsamiq Sans";
+}
+
+.footer a {
+    font-size: 1.5rem; 
+    color: #f0f0f0;
+    padding: 0 10px;
+}
+
+.footer a:hover {
+    color: #ff6f61; 
+}
+
+.footer .border-top {
+    border-color: #555;
+}
